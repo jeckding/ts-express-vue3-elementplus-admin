@@ -1,0 +1,16 @@
+// 自定义主题颜色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #005500
+    )
+  )
+);
+
+// @use "element-plus/theme-chalk/src/index.scss" as *;
+
+/* 主题颜色 */
+$primary: #005500;
+$success: #67c23a;
+$warning: #e6a23c;
+$error: #f56c6c;
